@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Red</title>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.teal-blue.min.css" />
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+  </head>
+
+  <body>
+    <p><%= notice %><%= alert %></p>
+    <%= yield %>
+  </body>
+</html>
